@@ -25,5 +25,5 @@ def checkPossibility(nums: list[int]) -> bool:
                 return False
             pos = i
     return pos == -1 or pos == 0 or pos == len(nums)-2 or nums[pos-1]<=nums[pos+1] or nums[pos] <= nums[pos+2]
-
+#3 4 2 8 -> change 2 to higher value case: nums[pos] <= nums[pos+2] 
 print(checkPossibility([4,2,3]))

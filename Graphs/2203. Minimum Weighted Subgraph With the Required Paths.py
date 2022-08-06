@@ -76,6 +76,6 @@ class Solution:
                 if new_d < dist[v]:
                     dist[v] = new_d
                     heappush(pq, (new_d, v))
-        return dist
+        return d ist
             
             

@@ -40,10 +40,6 @@ Constraints:
     The decoded string is guaranteed to have less than 2^63 letters.
 
 """
-
-from curses.ascii import SO
-
-
 class Solution:
     def decodeAtIndex(self, s: str, k: int) -> str:
         size = 0

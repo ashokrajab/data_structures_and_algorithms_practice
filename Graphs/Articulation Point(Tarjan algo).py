@@ -31,7 +31,7 @@ def findArticulationPoint(edges):
 				u.low = min(u.low, v.low)
 
 				if u.parent == None and u.childCount >1:
-					articulationPoints.add(u.va)
+					articulationPoints.add(u.val)
 				if u.parent != None and v.low >= u.disc:
 					articulationPoints.add(u.val)
 			elif v != u.parent:
